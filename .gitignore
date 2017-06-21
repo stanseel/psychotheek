@@ -11,6 +11,8 @@ logs/*
 images/*
 !images/.*
 
+_input/
+
 # OS Generated
 .DS_Store*
 ehthumbs.db
