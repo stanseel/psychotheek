@@ -12,6 +12,9 @@ images/*
 !images/.*
 
 _input/
+user/*
+!user/pages
+!user/themes
 
 # OS Generated
 .DS_Store*
