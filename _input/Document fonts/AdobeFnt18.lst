@@ -1,0 +1,137 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DroidSerif-Italic
+FamilyName:Droid Serif
+StyleName:Italic
+MenuName:Droid Serif
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Droid Serif Italic
+WritingScript:Roman
+OutlineFileName:\DroidSerif-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:40416
+FileModTime:1274054400
+NameArray:0,Mac,4,Droid Serif Italic
+NameArray:0,Win,1,Droid Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Bold
+FamilyName:Open Sans
+StyleName:Bold
+MenuName:Open Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Bold
+WritingScript:Roman
+OutlineFileName:\OpenSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:224592
+FileModTime:1431953214
+NameArray:0,Mac,4,Open Sans Bold
+NameArray:0,Win,1,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans
+FamilyName:Open Sans
+StyleName:Regular
+MenuName:Open Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Open Sans
+WritingScript:Roman
+OutlineFileName:\OpenSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:217360
+FileModTime:1431953214
+NameArray:0,Mac,4,Open Sans
+NameArray:0,Win,1,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Bold
+FamilyName:Ubuntu
+StyleName:Bold
+MenuName:Ubuntu
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Bold
+WritingScript:Roman
+OutlineFileName:\Ubuntu-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:333612
+FileModTime:1292367600
+NameArray:0,Mac,4,Ubuntu Bold
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Medium
+FamilyName:Ubuntu
+StyleName:Medium
+MenuName:Ubuntu Light
+StyleBits:2
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Medium
+WritingScript:Roman
+OutlineFileName:\Ubuntu-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:341324
+FileModTime:1292367600
+NameArray:0,Mac,18,Ubuntu Medium
+NameArray:0,Mac,4,Ubuntu Medium
+NameArray:0,Win,1,Ubuntu Light
+NameArray:0,Win,16,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu
+FamilyName:Ubuntu
+StyleName:Regular
+MenuName:Ubuntu
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu
+WritingScript:Roman
+OutlineFileName:\Ubuntu-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:353824
+FileModTime:1292367600
+NameArray:0,Mac,4,Ubuntu
+NameArray:0,Win,1,Ubuntu
+%EndFont
+

@@ -1,0 +1,11 @@
+email: stijn@stans.be
+fullname: 'Stijn Anseel'
+title: 'Admin '
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$s.bc1.LM6vqSrw4eT0d7xOuZfVxT.le45uePMRLF21lJikUlUgVjO

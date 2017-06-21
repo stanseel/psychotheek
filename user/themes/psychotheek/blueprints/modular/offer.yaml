@@ -1,0 +1,23 @@
+title: offer
+'@extends':
+    type: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        content:
+          fields:
+            header.onpage_menu: 
+              type: toggle
+              label: THEME_PSYCHOTHEEK.ADMIN.SHOW_ON_MENU.LABEL
+              highlight: 1
+              help: THEME_PSYCHOTHEEK.ADMIN.SHOW_ON_MENU.HELP
+              options:
+                  1: PLUGIN_ADMIN.YES
+                  0: PLUGIN_ADMIN.NO
+              validate:
+                  type: bool
+            

@@ -1,0 +1,9 @@
+<section id="{{ page.folder|replace({'_': ''})|lower }}" class="over-section container-fluid">
+    <div class="row">
+        <div class="col-sm-8 text-center col-sm-offset-2"> 
+            <h2> {{ page.header.title }}</h2>
+            <div class="border-black"></div>
+            {{ page.content }}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,30 @@
+title: about
+'@extends':
+    type: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        content:
+          fields:
+            header.onpage_menu: 
+              type: toggle
+              label: THEME_PSYCHOTHEEK.ADMIN.SHOW_ON_MENU.LABEL
+              help: THEME_PSYCHOTHEEK.ADMIN.SHOW_ON_MENU.HELP
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+                type: bool
+            header.image:
+              type: pagemediaselect
+              label: THEME_PSYCHOTHEEK.ADMIN.IMAGE
+              preview_images: true
+            header.alt:
+              type: text
+              label: THEME_PSYCHOTHEEK.ADMIN.ALT
+
+           

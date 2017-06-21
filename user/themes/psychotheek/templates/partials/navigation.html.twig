@@ -1,0 +1,10 @@
+<ul class="nav navbar-nav pull-right">
+{% for module in page.collection() %}
+    {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
+        {% if module.header.onpage_menu == true or module.header.onpage_menu is null %}
+        <li class="{{ current_module }}">
+            <a class="page-scroll" href="#{{ module.folder|replace({'_': ''})|lower }}"> {{ module.menu }}</a>
+        </li>
+        {% endif %}
+{% endfor %}
+</ul>

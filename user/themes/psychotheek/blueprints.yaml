@@ -1,0 +1,29 @@
+name: Psychotheek
+description: "Grav theme for Psychotheek website"
+version: 1.0.0
+icon: globe
+author:
+    name: Hung Tran
+    email: flatfiledeveloper@gmail.com
+    url: https://flatfiledeveloper.com
+license: MIT
+
+form:
+    validation: loose
+    fields:
+        copyright:
+            type: textarea
+            label: THEME_PSYCHOTHEEK.ADMIN.COPYRIGHT.LABEL
+            help: THEME_PSYCHOTHEEK.ADMIN.COPYRIGHT.HELP
+        logo:
+            type: filepicker
+            folder: 'theme@:/images'
+            preview_images: true
+            label: THEME_PSYCHOTHEEK.ADMIN.LOGO.LABEL
+            help: THEME_PSYCHOTHEEK.ADMIN.LOGO.HELP
+        favicon:
+            type: filepicker
+            folder: 'theme@:/images'
+            preview_images: true
+            label: THEME_PSYCHOTHEEK.ADMIN.FAVICON.LABEL
+            help: THEME_PSYCHOTHEEK.ADMIN.FAVICON.HELP

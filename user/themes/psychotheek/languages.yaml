@@ -1,0 +1,20 @@
+en:
+    THEME_PSYCHOTHEEK:
+        ADMIN:
+            COPYRIGHT:
+                LABEL: Copyright Text
+                HELP: Copyright text which is shown in footer.
+            LOGO:
+                LABEL: Logo
+                HELP: Filename of logo image in the theme's "images" folder.
+            FAVICON:
+                LABEL: Favicon
+                HELP: Filename of favicon image in the theme's "images" folder. favicon.png is used by default.
+            SHOW_ON_MENU:
+                LABEL: Show on menu
+                HELP: If you choose 'Yes', the navigation will show a link to this module
+            IMAGE: image
+            ALT: Alt
+            BACKGROUND: Background
+            BUTTON_LABEL: Button's label
+            URL: URL

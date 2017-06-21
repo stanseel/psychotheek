@@ -1,0 +1,12 @@
+<section id="{{ page.folder|replace({'_': ''})|lower }}" class="about-section container">
+    <div class="row">
+        <div class="col-md-8 text-center">
+            <h2> {{ page.header.title }}</h2>
+            <div class="border-orange"></div>
+            {{ page.content }}
+        </div>
+        <div class="col-md-4 img-wrapper">
+            <img class="img-responsive center-block" src="{{ page.media.images[page.header.image].cache.url() }}" alt="{{ page.header.alt }}">
+        </div>
+    </div>
+</section>

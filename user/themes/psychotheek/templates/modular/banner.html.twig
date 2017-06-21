@@ -1,0 +1,10 @@
+<section id="{{ page.folder|replace({'_': ''})|lower }}" class="banner-section container-fluid" style="background-image: url('{{ page.media.images[page.header.background].cache.url() }}');">
+    <div class="row">
+        <div class="col-md-6 content-title">
+            <h1> {{ page.header.title }} </h1>
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-0 content-wrapper">
+            {{ page.content }}
+        </div>
+    </div>
+</section>
