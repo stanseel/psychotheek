@@ -317,9 +317,28 @@ h5 {
     padding: 0;
 }
 .about-section img {
-    height: 408px;
-    width: auto;
+    /*height: 408px;*/
+    position: absolute;
+    top: 20px;
+    width: 340px !important;
+    height:auto;
 }
+@media (max-width: 1200px) {
+    .about-section img {
+        position: absolute;
+        top: 81px;
+        width: 320px!important;
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    .about-section img {
+        position:static;
+        width: 340px !important;
+        height:auto;
+    }
+}
+
 
 /*******************************************/
 /*          OVER PSYCHOTHEEK               */
